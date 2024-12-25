@@ -38,13 +38,15 @@ export default function Home() {
             </Text>
 
             <div className='mt-8 flex flex-row items-center md:mt-[3.25rem]'>
-              {/* eslint-disable-next-line max-len */}
-              <button className='mr-2 flex h-11 translate-y-0 items-center rounded-xl bg-accent-secondary px-3 transition-all hover:bg-accent-secondary-hover active:translate-y-px md:h-[3.25rem] md:px-5'>
-                <div className='mb-1 ml-1'>
-                  <HiOutlinePaperAirplane className='-rotate-45 items-center text-[16px] text-invert-secondary md:text-lg' />
-                </div>
-                <Text className='m-1 ml-1.5 font-jakarta text-sm font-medium tracking-wide text-invert-secondary md:text-[16px]'>Contact me</Text>
-              </button>
+              <a href='mailto:ryzenfox@zenithpaws.dev' target='_blank' rel='noopener noreferrer'>
+                {/* eslint-disable-next-line max-len */}
+                <button className='mr-2 flex h-11 translate-y-0 items-center rounded-xl bg-accent-secondary px-3 transition-all hover:bg-accent-secondary-hover active:translate-y-px md:h-[3.25rem] md:px-5'>
+                  <div className='mb-1 ml-1'>
+                    <HiOutlinePaperAirplane className='-rotate-45 items-center text-[16px] text-invert-secondary md:text-lg' />
+                  </div>
+                  <Text className='m-1 ml-1.5 font-jakarta text-sm font-medium tracking-wide text-invert-secondary md:text-[16px]'>Contact me</Text>
+                </button>
+              </a>
             </div>
 
             <div className={`${styles.techIcons} mt-24 md:mt-36`}>
